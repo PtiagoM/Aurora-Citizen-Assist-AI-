@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE e sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Entrega e históricos locais de avaliação
+/Aurora-Citizen-Assist-AI-Entrega.zip
+/avaliacao/resultados/*.json
+!/avaliacao/resultados/baseline.json
+!/avaliacao/resultados/aprimorada_validada.json
